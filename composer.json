@@ -1,0 +1,28 @@
+{
+    "name": "atif/contactform",
+    "description": "testing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JackSparroow",
+            "email": "muhammadatif.pucit@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pucit\\Contactform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                " \\Pucit\\Contactform\\ContactServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "atif/contactform":"@dev"
+    }
+}
